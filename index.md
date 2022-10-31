@@ -1,6 +1,7 @@
 # Week 5 Lab Report - Commands
 
 ## 3 interesting command-line options or alternate ways to use find:
+
 1.Use -name with extension or asterisk symbol to search for a specific file:
 
 `find -name "*chapter*"`

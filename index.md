@@ -53,4 +53,16 @@ The less -X command could leave the file contents on the terminal. It is useful 
 
 ## 3 interesting command-line options or alternate ways to use grep:
 
+1. Use -c to display the count of number of matches:
 
+`grep -c "rheimatoid" technical/*/ar68.txt`
+
+![](https://github.com/tnduong2807/docsearch/blob/main/Screenshot%20(63).png?raw=true)
+
+The grep -c to display the number of lines that matches the given string or pattern. It is useful because we can find how many lines that contain the pattern in the contents of the files and know if the contents of the file have the keyword or not.
+
+2. Use -l to display the file names that have the contents matches the pattern:
+
+`grep -l "hiv" technical/biomed/*`
+
+![]()

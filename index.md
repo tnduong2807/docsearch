@@ -73,4 +73,6 @@ The grep -l command is to display the files that contains the given string/patte
 
 `grep -n "biomed" technical/biomed/*`
 
-![]()
+![](https://github.com/tnduong2807/docsearch/blob/main/Screenshot%20(64).png?raw=true)
+
+The grep -n command is to show the line number of file with the line matched the given string. It is useful because we could locate the lines that conatins the given string in many different files that contains that given string and it could save so much time to find lines in differents files that have the given string.

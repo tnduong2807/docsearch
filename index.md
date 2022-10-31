@@ -5,7 +5,7 @@
 
 `find -name "*chapter*"`
 
-![](https://github.com/tnduong2807/docsearch/blob/main/Screenshot%20(53).png?raw=true)
+![](https://github.com/tnduong2807/docsearch/blob/main/Screenshot%20(54).png?raw=true)
 
 The find -name with extension command could use find all files that end with specific extension. It's useful because it is save a lot of time and we all love being lazy as programmers.
 

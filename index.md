@@ -59,10 +59,18 @@ The less -X command could leave the file contents on the terminal. It is useful 
 
 ![](https://github.com/tnduong2807/docsearch/blob/main/Screenshot%20(63).png?raw=true)
 
-The grep -c to display the number of lines that matches the given string or pattern. It is useful because we can find how many lines that contain the pattern in the contents of the files and know if the contents of the file have the keyword or not.
+The grep -c command is to display the number of lines that matches the given string or pattern. It is useful because we can find how many lines that contain the pattern in the contents of the files and know if the contents of the file have the keyword or not.
 
 2. Use -l to display the file names that have the contents matches the pattern:
 
 `grep -l "hiv" technical/biomed/*`
+
+![](https://github.com/tnduong2807/docsearch/blob/main/Screenshot%20(64).png?raw=true)
+
+The grep -l command is to display the files that contains the given string/pattern. It is useful because we could locate the files that contains the given string and it could save so much time to find the names of the files.
+
+3. Use -n to show the line number while displaying the contents that conatains the string:
+
+`grep -n "biomed" technical/biomed/*`
 
 ![]()

@@ -35,8 +35,16 @@ The find -type command could use find all the files with the specific type, for 
 
 The less -N command could use display the specific text line with line numbers. It is useful becasue we could label the text line with line numbers and make it easier to locate a specific issue.
 
-1. Use -s to remove multuple blank lines from a text file into one black line:
+2. Use -s to remove multuple blank lines from a text file into one black line:
 
 `less -s technical/*/chapter-1.txt`
-![]()
 
+![](https://github.com/tnduong2807/docsearch/blob/main/Screenshot%20(61).png?raw=true)
+
+The less -s command could remove multiple blank lines and allow to show more content in one screenful of that file. It is useful because it will make the content of the file more readable and create a more clean version of that file.
+
+3. Use -X to leave the file contents in the termical after quitting:
+
+`less -X technical/*/chapter-1.txt`
+
+![]()

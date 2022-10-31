@@ -17,7 +17,7 @@ The find -name with extension command could use find all files that end with spe
 
 The find -size command could use find all the files with the specific size, for example find files that size less than 2 kilobytes. It is usefull because we could find all the files with specific size to find any kind of files knowing its' size.
 
-3. use -type to search the files with specific type:
+3. Use -type to search the files with specific type:
 
 `find technical/ -type d`
 
@@ -25,5 +25,18 @@ The find -size command could use find all the files with the specific size, for 
 
 The find -type command could use find all the files with the specific type, for examples find files that is the directory type. It is useful because we could find all the files with specific type to find any kind of files knowing its' types.
 
+## 3 interesting command-line options or alternate ways to use less:
 
+1. Use -N to display the specified text file with line numbers:
+
+`less -N technical/*/chapter-1.txt`
+
+![](https://github.com/tnduong2807/docsearch/blob/main/Screenshot%20(60).png?raw=true)
+
+The less -N command could use display the specific text line with line numbers. It is useful becasue we could label the text line with line numbers and make it easier to locate a specific issue.
+
+1. Use -s to remove multuple blank lines from a text file into one black line:
+
+`less -s technical/*/chapter-1.txt`
+![]()
 

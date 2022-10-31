@@ -41,10 +41,16 @@ The less -N command could use display the specific text line with line numbers. 
 
 ![](https://github.com/tnduong2807/docsearch/blob/main/Screenshot%20(61).png?raw=true)
 
-The less -s command could remove multiple blank lines and allow to show more content in one screenful of that file. It is useful because it will make the content of the file more readable and create a more clean version of that file.
+The less -s command could remove multiple blank lines and allow to show more contents in one screenful of that file. It is useful because it will make the contents of the file more readable and create a more clean version of that file.
 
-3. Use -X to leave the file contents in the termical after quitting:
+3. Use -X to leave the file contents in the terminal after quitting:
 
 `less -X technical/*/chapter-1.txt`
 
-![]()
+![](https://github.com/tnduong2807/docsearch/blob/main/Screenshot%20(62).png?raw=true)
+
+The less -X command could leave the file contents on the terminal. It is useful because we can multitask with the contents on the terminal.
+
+## 3 interesting command-line options or alternate ways to use grep:
+
+

@@ -5,13 +5,23 @@
 
 `find -name "*chapter*"`
 
-![](https://github.com/tnduong2807/docsearch/blob/main/Screenshot%20(54).png?raw=true)
+![](https://github.com/tnduong2807/docsearch/blob/main/Screenshot%20(57).png?raw=true)
 
-The find -name with extension command could use find all files that end with specific extension. It's useful because it is save a lot of time and we all love being lazy as programmers.
+The find -name with extension command could use find all files that end with specific extension. It's useful because it is save a lot of time to find files with the same name and we all love being lazy as programmers.
 
 2. Use -size to search for the files with specific size or weight:
 
-![]()
+`find technical/ -size -2k`
+
+![](https://github.com/tnduong2807/docsearch/blob/main/Screenshot%20(56).png?raw=true)
+
+The find -size command could use find all the files with the specific size, for example find files that size less than 2 kilobytes. It is usefull because we could find all the files with specific to find any kind of files knowing its' size.
+
+3. use -type to search the files with specific type:
+
+`find technical/ -type d`
+
+
 
 
 
